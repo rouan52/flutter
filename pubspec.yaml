@@ -1,0 +1,34 @@
+name: equihorizon
+description: Application de gestion de centre équestre
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+     flutter:
+       sdk: flutter
+     shared_preferences: ^2.0.0
+     http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  # Si tu utilises des assets, tu peux les décommenter et ajouter les chemins ici
+  # assets:
+  #   - assets/images/
+
+  # Exemple pour ajouter une police personnalisée
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
